@@ -1,0 +1,197 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    letter-spacing: 1px;
+font-family: 'Montserrat', sans-serif;
+}
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("/stylesheets/images/best/black-and-white-apple-iphone-smartphone.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  html,
+  body,
+  .bg,
+  .view {
+    height: 100%;
+  }
+  .contentHead{
+      margin-top: 20%;
+  }
+
+  @media (max-width: 981px) {
+  html,
+  body,
+  .bg,
+  .view {
+    height: 100vh;
+  }
+  .contentHead{
+    margin-top: 45%;
+    }
+  }
+
+
+body a {
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(127, 123, 123);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+	list-style-type: none;
+}
+
+/*=====================================
+  ABOUT STYLES
+  ===================================*/
+  .about-div {
+    padding: 30px;
+}
+
+.icon-round-border {
+    border: 10px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border:hover {
+    color: #fff;
+    border: 10px double #fff;
+    background-color: #1A94C4;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border2 {
+    border: 10px double #1A94C4;
+    color: #1A94C4;
+    text-align: center;
+    padding-top: 8px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.icon-round-border2:hover {
+    color: #fff;
+    border: 10px double #fff;
+    background-color: #1A94C4;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+/*-- bottom-to-top --*/
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 26px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/move-top.png") no-repeat 0px 0px;
+    background-size: 40px;
+}
+
+#toTopHover {
+    width: 40px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+/*-- //bottom-to-top --*/
